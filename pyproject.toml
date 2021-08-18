@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "self_catering_tool"
+version = "0.1.0"
+description = ""
+authors = ["koba-masa <kobayashi_mshr@koba-masa.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^6.2.4"
+img2pdf = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
